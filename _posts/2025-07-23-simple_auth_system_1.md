@@ -1,5 +1,5 @@
 ---
-title: "Node.js + Express로 JWT 완전한 인증 시스템 구축하기 (1편)"
+title: "Node.js + Express로 완전한 JWT 인증 시스템 구축하기 Part 1: 회원가입부터 로그인까지"
 categories:
 - MiniProject
 - SimpleAuthSystem

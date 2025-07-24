@@ -16,7 +16,7 @@ search: true
 
 이 포스트는 JWT 인증 시스템 시리즈의 **Part 2**입니다.
 
-- **[Part 1: 기본 JWT 인증 시스템 구축하기](https://hoondongseo.github.io/posts/simple-auth-system_1/)** ← 먼저 읽어주세요!
+- **[Part 1: 기본 JWT 인증 시스템 구축하기](https://hoondongseo.github.io/posts/simple_auth_system_1/)** ← 먼저 읽어주세요!
 - **Part 2: 고급 JWT 인증 기능** ← 현재 글
 
 ---

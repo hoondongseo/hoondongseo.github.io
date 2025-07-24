@@ -3,13 +3,13 @@
   "short_name": "HDS",
   "icons": [
     {
-      "src": "/D:\\Project\\my-github-blog\\hoondongseo.github.io\\assets\\img\\favicons/web-app-manifest-192x192.png",
+      "src": "/D:\\Project\\hoondongseo.github.io\\assets\\img\\favicons/web-app-manifest-192x192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "/D:\\Project\\my-github-blog\\hoondongseo.github.io\\assets\\img\\favicons/web-app-manifest-512x512.png",
+      "src": "/D:\\Project\\hoondongseo.github.io\\assets\\img\\favicons/web-app-manifest-512x512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"

@@ -597,9 +597,9 @@ npm start
 
 ### ✅ 실행 결과
 
-![image-20250724133142736](../..//hoondongseo.github.io/assets/img/posts/2025-07-24-simple_auth_system_3/image-20250724133142736.png)
+![image-20250724133142736](../assets/img/posts/2025-07-24-simple_auth_system_3/image-20250724133142736.png)
 
-![image-20250724133209127](../..//hoondongseo.github.io/assets/img/posts/2025-07-24-simple_auth_system_3/image-20250724133209127.png)
+![image-20250724133209127](../assets/img/posts/2025-07-24-simple_auth_system_3/image-20250724133209127.png)
 
 ### 🧪 테스트 시나리오
 

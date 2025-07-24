@@ -113,7 +113,7 @@ addEventListener를 이용해서 사용자가 위치 버튼을 클릭할 때 get
 
 ### 구현 결과
 
-![image-20241219144839313](../assets/img/posts/2024-12-19-weather-widget_4.md/image-20241219144839313.png){:style="border:1px solid #ababab; border-radius: 10px;"}
+![image-20241219144839313](../assets/img/posts/2024-12-19-weather-widget_4/image-20241219144839313.png){:style="border:1px solid #ababab; border-radius: 10px;"}
 
 위치 버튼을 클릭했을 때, 다음 사진과 같이 날씨 정보가 출력된 것을 확인할 수 있었습니다👏
 
@@ -125,7 +125,7 @@ addEventListener를 이용해서 사용자가 위치 버튼을 클릭할 때 get
 
 또한, 잘못된 위치를 검색했을 때, 에러 코드를 출력하면 더 좋은 프로그램이 될 것 같다고 생각했습니다.
 
-![image-20241219151159235](../assets/img/posts/2024-12-19-weather-widget_4.md/image-20241219151159235.png){:style="border:1px solid #ababab; border-radius: 10px;"}
+![image-20241219151159235](../assets/img/posts/2024-12-19-weather-widget_4/image-20241219151159235.png){:style="border:1px solid #ababab; border-radius: 10px;"}
 
 다음 시간에는 위치 표시 및 에러 코드 출력을 해보겠습니다.
 

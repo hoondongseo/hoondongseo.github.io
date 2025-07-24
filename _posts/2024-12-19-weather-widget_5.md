@@ -28,7 +28,7 @@ search: true
 
 적절한 에러 출력 이미지를 찾기 위해 구글링을 해서 다음과 같은 이미지를 구했습니다!
 
-![image-20241219152521073](../assets/img/posts/2024-12-19-weather-widget_5.md/image-20241219152521073.png){: width="500" height="500"}
+![image-20241219152521073](../assets/img/posts/2024-12-19-weather-widget_5/image-20241219152521073.png){: width="500" height="500"}
 
 프로젝트 경로에 "asset"이라는 폴더를 만들어 준 후, 404.png 파일을 옮겼습니다.
 
@@ -105,7 +105,7 @@ display: none; 속성을 통해서 요소를 화면에서 숨겼습니다.
 
 ### 구현 결과
 
-![image-20241219163922109](../assets/img/posts/2024-12-19-weather-widget_5.md/image-20241219163922109.png){:style="border:1px solid #ababab; border-radius: 10px;"}
+![image-20241219163922109](../assets/img/posts/2024-12-19-weather-widget_5/image-20241219163922109.png){:style="border:1px solid #ababab; border-radius: 10px;"}
 
 구현 성공👏
 
@@ -129,7 +129,7 @@ inputBox.value = `${weather_data.name}, ${weather_data.sys.country}`;
 
 ### 구현 결과
 
-![image-20241219172714651](../assets/img/posts/2024-12-19-weather-widget_5.md/image-20241219172714651.png){:style="border:1px solid #ababab; border-radius: 10px;"}
+![image-20241219172714651](../assets/img/posts/2024-12-19-weather-widget_5/image-20241219172714651.png){:style="border:1px solid #ababab; border-radius: 10px;"}
 
 ***
 
@@ -137,7 +137,7 @@ inputBox.value = `${weather_data.name}, ${weather_data.sys.country}`;
 
 마지막으로  "Clear Sky" 처럼 영어로 표현되는 날씨의 상세 설명을 한국어로 변경하자는 생각이 들었습니다. 
 
-![image-20241219171039843](../assets/img/posts/2024-12-19-weather-widget_5.md/image-20241219171039843.png){:style="border:1px solid #ababab; border-radius: 10px;"}
+![image-20241219171039843](../assets/img/posts/2024-12-19-weather-widget_5/image-20241219171039843.png){:style="border:1px solid #ababab; border-radius: 10px;"}
 
 OpenWeatherMap 사이트를 디깅해서 언어를 변경할 수 있는 코드를 발견했습니다.
 
@@ -149,7 +149,7 @@ OpenWeatherMap 사이트를 디깅해서 언어를 변경할 수 있는 코드�
 
 ## 최종 구현 결과
 
-![image-20241219173457716](../assets/img/posts/2024-12-19-weather-widget_5.md/image-20241219173457716.png){:style="border:1px solid #ababab; border-radius: 10px;"}
+![image-20241219173457716](../assets/img/posts/2024-12-19-weather-widget_5/image-20241219173457716.png){:style="border:1px solid #ababab; border-radius: 10px;"}
 
 이렇게 날씨 위젯을 완성해보았습니다. 다 만들고 나니 정말 뿌듯하네요 ㅠㅠ
 

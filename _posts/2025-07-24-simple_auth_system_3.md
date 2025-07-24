@@ -3,7 +3,7 @@ title: "Node.js JWT 인증 시스템 완성하기 Part 3: React 프론트엔드 
 categories:
 - MiniProject
 - SimpleAuthSystem
-tag: [MiniProject, auth, 회원가입, 로그인, Node.js, Express.js,MongoDB, Mongoose, JWT, bcrypt]
+tag: [MiniProject, auth, 회원가입, 로그인, React, 프론트엔드]
 author_profile: false
 sidebar:
     nav: "docs"

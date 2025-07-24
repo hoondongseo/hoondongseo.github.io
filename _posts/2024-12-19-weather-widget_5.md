@@ -28,7 +28,7 @@ search: true
 
 적절한 에러 출력 이미지를 찾기 위해 구글링을 해서 다음과 같은 이미지를 구했습니다!
 
-![image-20241219152521073](../assets/img/posts/2024-12-19-weather-widget_5.md/image-20241219152521073.png){: width="500" height="500"}}
+![image-20241219152521073](../assets/img/posts/2024-12-19-weather-widget_5.md/image-20241219152521073.png){: width="500" height="500"}
 
 프로젝트 경로에 "asset"이라는 폴더를 만들어 준 후, 404.png 파일을 옮겼습니다.
 

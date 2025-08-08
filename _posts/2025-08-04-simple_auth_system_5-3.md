@@ -8,7 +8,6 @@ author_profile: false
 sidebar:
     nav: "docs"
 search: true
-
 ---
 
 > Eclipse 스타일 로딩 스피너와 부드러운 Toast 알림으로 완성하는 모던 웹 UX

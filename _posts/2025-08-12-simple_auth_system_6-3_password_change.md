@@ -558,7 +558,7 @@ const PasswordChange = ({ showToast, onCancel }) => {
 							<div className="strength-bar">
 								<div
 									className="strength-fill"
-									style={{
+									style={% raw %}{{
 										width: `${
 											(passwordStrength.requirements.filter(
 												(req) => req.test
@@ -567,12 +567,12 @@ const PasswordChange = ({ showToast, onCancel }) => {
 											100
 										}%`,
 										backgroundColor: passwordStrength.color,
-									}}
+									}}{% endraw %}
 								></div>
 							</div>
 							<span
 								className="strength-text"
-								style={{ color: passwordStrength.color }}
+								style={% raw %}{{ color: passwordStrength.color }}{% endraw %}
 							>
 								{passwordStrength.level}
 								{passwordStrength.level !== "강함" && (
@@ -1295,7 +1295,7 @@ React key를 활용한 부드러운 전환 애니메이션을 구현했습니다
 			<div className="strength-bar">
 				<div
 					className="strength-fill"
-					style={{
+					style={% raw %}{{
 						width: `${
 							(passwordStrength.requirements.filter(
 								(req) => req.test
@@ -1304,12 +1304,12 @@ React key를 활용한 부드러운 전환 애니메이션을 구현했습니다
 							100
 						}%`,
 						backgroundColor: passwordStrength.color,
-					}}
+					}}{% endraw %}
 				/>
 			</div>
 			<span
 				className="strength-text"
-				style={{ color: passwordStrength.color }}
+				style={% raw %}{{ color: passwordStrength.color }}{% endraw %}
 			>
 				{passwordStrength.level}
 				{passwordStrength.level !== "강함" && (

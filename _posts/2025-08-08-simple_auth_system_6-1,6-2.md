@@ -723,11 +723,11 @@ const EmailVerified = () => {
 				<div className="auth-card">
 					<LoadingSpinner />
 					<p
-						style={{
+						style={% raw %}{{
 							textAlign: "center",
 							marginTop: "1rem",
 							color: "#94a3b8",
-						}}
+						}}{% endraw %}
 					>
 						이메일 인증을 처리하고 있습니다...
 					</p>
@@ -917,7 +917,7 @@ export const AuthProvider = ({ children }) => {
 	};
 
 	return (
-		<AuthContext.Provider value={{ user, login, logout, token }}>
+		<AuthContext.Provider value={% raw %}{{ user, login, logout, token }}{% endraw %}>
 			{children}
 		</AuthContext.Provider>
 	);
@@ -994,7 +994,7 @@ const Dashboard = () => {
 						{loading ? (
 							<>
 								<LoadingSpinner size="small" color="white" />
-								<span style={{ marginLeft: "8px" }}>
+								<span style={% raw %}{{ marginLeft: "8px" }}{% endraw %}>
 									로그아웃 중...
 								</span>
 							</>

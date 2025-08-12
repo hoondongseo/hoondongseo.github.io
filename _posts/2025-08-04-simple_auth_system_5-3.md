@@ -417,7 +417,7 @@ const LoginForm = () => {
 				{loading ? (
 					<>
 						<LoadingSpinner size="small" color="white" />
-						<span style={{ marginLeft: "8px" }}>
+						<span style={% raw %}{{ marginLeft: "8px" }}{% endraw %}>
 							로그인 중...
 						</span>
 					</>
@@ -485,7 +485,7 @@ const handleSubmit = async (e) => {
 	{loading ? (
 		<>
 			<LoadingSpinner size="small" color="white" />
-			<span style={{ marginLeft: "8px" }}>
+			<span style={% raw %}{{ marginLeft: "8px" }}{% endraw %}>
 				가입 중...
 			</span>
 		</>
@@ -638,7 +638,7 @@ const Dashboard = () => {
 					{loading ? (
 						<>
 							<LoadingSpinner size="small" color="white" />
-							<span style={{ marginLeft: "8px" }}>
+							<span style={% raw %}{{ marginLeft: "8px" }}{% endraw %}>
 								로그아웃 중...
 							</span>
 						</>

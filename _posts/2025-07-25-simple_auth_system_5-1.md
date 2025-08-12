@@ -370,14 +370,14 @@ const ProtectedRoute = ({ children }) => {
   // 로딩 중일 때는 로딩 화면 표시
   if (loading) {
     return (
-      <div style={{
+      <div style={% raw %}{{
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
         height: '100vh',
         fontSize: '1.2rem',
         color: '#666'
-      }}>
+      }}{% endraw %}>
         로딩 중...
       </div>
     );
@@ -386,7 +386,7 @@ const ProtectedRoute = ({ children }) => {
   // 인증되지 않은 경우 로그인 페이지로 리다이렉트
   // 현재 경로를 state로 저장하여 로그인 후 원래 페이지로 돌아갈 수 있게 함
   if (!isAuthenticated) {
-    return <Navigate to="/login" state={{ from: location }} replace />;
+    return <Navigate to="/login" state={% raw %}{{ from: location }}{% endraw %} replace />;
   }
 
   // 인증된 경우 요청된 컴포넌트 렌더링
